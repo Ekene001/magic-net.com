@@ -1,0 +1,335 @@
+body,html{
+	height: 100%;
+	background-color: floralwhite;
+}
+/*beginning of mothers project**/
+.wrapper{
+	width: 100%;
+	margin: 0 auto;
+}
+video{
+	width: 100%;
+}
+.wrapper{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+.wrapper h1{
+	text-align: center;
+	font-size: 4rem;
+	font-family: roboto;
+	z-index: 1;
+	text-transform: uppercase;
+	color: red;
+	font-weight: bold;
+}
+.wrapper p{
+	text-align: center;
+	font-size: 15px;
+	font-family: calibri;
+	z-index: 1;
+	text-transform: capitalize;
+	color: white;
+	font-weight: bold;
+}
+#style{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100vh;
+}
+.color-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	opacity: 0.4;
+}
+.carousel-style{
+	width: 100%;
+	padding-top: 70px;
+}
+/*end of mothers project**/
+
+/*beginning of home2**/
+
+#bowl{
+	color: red;
+}
+.carousel-caption{
+	color: red;
+	
+}
+.carousel-caption p{
+	font-size: 20px;
+	color: black;
+}
+
+
+.card-body{
+	background-color: blue;
+}
+.card-body h5{
+	color: red;
+}
+.card img{
+	height: 267px;
+}
+.navbar h3{
+	color: red;
+} 
+.navbar i:hover{
+	color: coral;
+}
+.navbar i{
+	font-size: 1.2rem;
+	padding: 0 7px;
+	cursor: pointer;
+	font-weight: 500;
+	transition: 0.3s ease;
+}
+.navbar{
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #fdeec2;
+	top: 0;
+	left: 0;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul a{
+	color: black;
+}
+.navbar-light .navbar-nav .nav-link{
+	padding: 0 20px;
+	color: ;
+	transition: 0.3s ease;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: coral;
+}
+/*mobile**/
+.navbar-light .navbar-toggler{
+	border: none;
+	outline: none;
+}
+#bar{
+	font-size: 1.5rem;
+	padding: 7px;
+	cursor: pointer;
+	font-weight: 500;
+	transition: 0.3s ease;
+	color: black;
+}
+#bar:hover{
+	color: white;
+	background-color: black;
+}
+.container span{
+	color: red;
+}
+.container p{
+	font-weight: bold;
+}
+.container button{
+	padding: 10px;
+	background-color: black;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	transition: 0.3s ease;
+}
+.container button:hover{
+	background-color: grey;
+}
+.star{
+	padding: 10px 0;
+}
+.star i{
+	font: 0.8rem;
+	color: #f1950c;
+}
+#second{
+	width: 30px;
+	height: 2px;
+	background-color: #f77f05;
+	display: inline-block;
+}
+#one{
+	height: 88vh;
+	width: 100%;
+	background-image:url("images/png-clipart-chicken-duck-poultry-fodder-farm-chicken-coop-food-company (2).jpg");
+	background-size: cover;
+	background-position: top;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: start;
+}
+#new .one img{
+	width: 100%;
+	height: 70%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+#new .one .details{
+	position: absolute;
+	width: 100%;
+	height: 70%;
+	top: 0;
+	left: 0;
+	transition: 0.3s ease;
+	text-transform: uppercase;
+	
+}
+#new .one .details h2{
+	font-size: 50px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+#new .one:hover .details{
+	cursor: pointer;
+	background-color: rgba(245,178,178,0.7);
+}
+#new .one .details button{
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	color: blue;
+	background: none;
+	border: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid black;
+	padding: 2.5px;
+	transform: translateY(70px);
+	transition: 0.3s ease;
+}
+#new .one .details button:hover{
+	color: white;
+	border-bottom: 1px solid white;
+}
+#new .one:nth-child(1) .details{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: flex-start;
+	text-align: start;
+}
+#new .one:nth-child(2) .details{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+#new .one:nth-child(3) .details{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: flex-end;
+	text-align: end;
+}
+/*products**/
+.product{
+	cursor: pointer;
+	margin-bottom: 2rem;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.product img{
+	transition: 0.3s all;
+	height: 70%;
+	width: 80%;
+}
+.product:hover img{
+	opacity: 0.7;
+}
+.product .buy-btn{
+	background-color: #f77f05;
+	transform: translateY(20px);
+	opacity: 0;
+	transition: 0.3s all;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.product:hover .buy-btn{
+	transform: translateY(0px);
+	opacity: 1;
+}
+#banner{
+	height: 60vh;
+	width: 100%;
+	background-image:url("images/isa-brown-chickens-eating-feed.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top 70px center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+#banner h4{
+	color: floralwhite;
+}
+#banner h1{
+	color: snow;
+}
+#banner button{
+	background-color: #f77f05;
+}
+#pot img{
+	height: 75px;
+	width: 75px;
+}
+footer{
+	background-color: red;
+}
+footer h5{
+	color: white;
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+footer li{
+	padding-bottom: 4px;
+}
+footer li a{
+	font-size: 0.8rem;
+	color: grey;
+}
+footer li a:hover{
+	color: white;
+}
+footer p{
+	color: white;
+	font-size: 0.8rem;
+}
+footer .copyright a{
+	color: black;
+	width: 38px;
+	height: 38px;
+	background-color: white;
+	display: inline-block;
+	text-align: center;
+	line-height: 38px;
+	border-radius: 50%;
+	transition: 0.3s ease;
+	margin: 0 5px;
+}
+footer .copyright a:hover{
+	color: white;
+	background-color: #fb774b;
+}
